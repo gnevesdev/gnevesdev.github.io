@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Snow - Site Pessoal</title>
+		<title>Snow - Home</title>
 
 		<style type="text/css">
 			* {
+				margin: 0;
 				padding: 0;
-				margin: 0 auto;
+			}
+
+			a {
+				color: white;
 			}
 
 			body {
@@ -16,27 +20,46 @@
 
 			header {
 				background-color: #121212;
-				padding: 30px;
+				padding: 5px;
+
+				/* font properties */
 				text-align: center;
 				font-weight: bold;
-				font-family: tahoma;
+				font-family: tahoma consolas;
 				font-size: 2vh;
 			}
 
-			header > * {
-				padding: 3%;
+			.page-selector-item {
+				display: inline-block;
+				margin: 3vh;
 			}
 
-			a {
-				color: white;
+			.page-selector-item a {
+				text-decoration: none;
+			}
+
+			.page-selector-item img {
+				vertical-align: bottom;
+				width: 2.5vh;
 			}
 		</style>
 	</head>
 
 	<body>
 		<header>
-			<a href="index.html">Home</a>
-			<a href="">Reach me</a>
+			<div class="page-selector-item">
+				<a href="index.html">
+					<img src="assets/house.png">
+					<text>Home</text>
+				</a>
+			</div>
+
+			<div class="page-selector-item">
+				<a href="reach-me.html">
+					<img src="assets/laptop.png">
+					<text>Reach me</text>
+				</a>
+			</div>
 		</header>
 	</body>
 </html>
