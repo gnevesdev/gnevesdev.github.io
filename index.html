@@ -19,12 +19,12 @@
 			}
 
 			body {
-				background-color: #0C0D0F;
+				background-color: black;
 				color: white;
 			}
 
 			header {
-				background-color: #121212;
+				background-color: black;
 				padding: 5px;
 
 				/* font properties */
@@ -45,6 +45,11 @@
 			.page-selector-item img {
 				vertical-align: bottom;
 				width: 2.5vh;
+			}
+
+			.article {
+				padding-top: 30px;
+				padding-bottom: 30px;
 			}
 
 			.article h1 {
@@ -78,12 +83,13 @@
 			}
 
 			.article-links a {
+				margin-left: 20px;
+				margin-right: 20px;
 				color: #404090;
 				text-decoration: none;
 			}
 
 			.article-links a:hover {
-				color: #404090;
 				text-decoration: underline;
 			}
 		</style>
@@ -106,10 +112,11 @@
 			</div>
 		</header>
 
-		<div class="article">
+		<div class="article" style="background-color: #0C0D0F;">
 			<h1>Squid Engine</h1>
 			<p>A thin minimal layer</p>
 			<div class="article-links">
+				<a href="https://github.com/gnevesdev/SquidEngine" target="_blank">> Learn more</a>
 				<a href="https://github.com/gnevesdev/SquidEngine" target="_blank">> Test it now (Pre-Alpha)</a>
 			</div>
 
